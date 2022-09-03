@@ -69,6 +69,13 @@ header div:first-of-type {
     margin: auto 0;
 }
 
+.social > div {
+  width: 100%;
+  margin-right: 3rem;
+  font-family: '04b_19', sans-serif;
+  font-size: 2.4rem;
+}
+
 #about-us{
     background-color: #20BF55;
     padding: 1.75rem 0;
