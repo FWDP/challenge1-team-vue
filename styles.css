@@ -35,13 +35,20 @@ h1 {
     width: 31.6rem;
 }
 
+#logo {
+  position: absolute;
+  height: 7rem;
+  left: 2.7rem;
+  top: 2.5rem;
+}
+
 header {
     display: grid;
     grid-template-columns: 50% 50%;  
     padding: 1.4rem 0;
     background: #757575;
     color: #FBFBFF;
-    column-gap: 4rem;
+    column-gap: 2.5rem;
     overflow: hidden;
 
 }
@@ -54,6 +61,7 @@ header div:first-of-type {
 
 .social {
     display: flex;
+    place-items: center;
 }
 
 .social img {
