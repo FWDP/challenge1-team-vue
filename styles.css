@@ -5,34 +5,36 @@
   src: url("04B_19__.TTF");
 }
 
-*, ::before, ::after {
-    padding: 0;
-    margin: 0;
-    border: 1px solid black;
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Jost', sans-serif;
+  font-size: 62.5%;
+  font-family: 'Jost', sans-serif;
 }
 
 h1 {
-    font-family: 'Jost';
+  font-family: 'Jost';
 }
 
-.website-name, .subtitle {
-    text-align: end;
+.website-name,
+.subtitle {
+  text-align: end;
 }
 
 .website-name {
-    font-size: 3.6rem;
-    font-family: '04b_19', "Jost";
+  font-size: 3.6rem;
+  font-family: '04b_19', "Jost";
 }
 
 .subtitle {
-    font-size: 1.8rem;
-    width: 31.6rem;
+  font-size: 1.8rem;
+  width: 31.6rem;
 }
 
 #logo {
@@ -43,14 +45,13 @@ h1 {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 50% 50%;  
-    padding: 1.4rem 0;
-    background: #757575;
-    color: #FBFBFF;
-    column-gap: 2.5rem;
-    overflow: hidden;
-
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 1.4rem 0;
+  background: #757575;
+  color: #FBFBFF;
+  column-gap: 2.5rem;
+  overflow: hidden;
 }
 
 header div:first-of-type {
@@ -60,55 +61,61 @@ header div:first-of-type {
 }
 
 .social {
-    display: flex;
-    place-items: center;
+  display: flex;
+  place-items: center;
 }
 
 .social img {
-    padding: 0 2rem;
-    margin: auto 0;
+  padding: 0 2rem;
+  margin: auto 0;
 }
 
-.social > div {
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.social>div {
   width: 100%;
   margin-right: 3rem;
   font-family: '04b_19', sans-serif;
   font-size: 2.4rem;
 }
 
-#about-us{
-    background-color: #20BF55;
-    padding: 1.75rem 0;
-    min-height: calc(100vh - 1px);
-    position: relative;
-  }
-  
-  .content{
-    width: 90%;
-    max-width: 90rem;
-    margin: auto;
-  }
-  
-  #about-us h2,#about-us p{
-    color: #fff;
-    margin-bottom: 1.75rem;
-  }
-  
-  
-  #about-us h2 {
-    font-size: 3.8rem;
-    text-align: center;
-    }
-  
-  #about-us p {
-    font-size: 3rem;
-    line-height: 1.4;
-  }
-  
-  .btn-x{
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    color: #FBFBFF;
-    font-size: 2.5rem;
-  }
+#about-us {
+  background-color: #20BF55;
+  padding: 1.75rem 0;
+  min-height: calc(100vh - 1px);
+  position: relative;
+}
+
+.content {
+  width: 90%;
+  max-width: 90rem;
+  margin: auto;
+}
+
+#about-us h2,
+#about-us p {
+  color: #fff;
+  margin-bottom: 1.75rem;
+}
+
+
+#about-us h2 {
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+#about-us p {
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.btn-x {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  color: #FBFBFF;
+  font-size: 2.5rem;
+}
